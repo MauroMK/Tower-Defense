@@ -8520,6 +8520,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1662714754}
   - component: {fileID: 1662714753}
+  - component: {fileID: 1662714755}
   m_Layer: 0
   m_Name: LevelManager
   m_TagString: Untagged
@@ -8572,6 +8573,24 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &1662714755
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1662714752}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: dff8a5feed43c4e4ab676b145608f689, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  enemyPrefabs:
+  - {fileID: 2290312964774932431, guid: 5a90289d58831504b83d6ce99b0e92a3, type: 3}
+  baseEnemies: 8
+  enemiesPerSecond: 0.5
+  timeBetweenWaves: 5
+  difficultyScalingFactor: 0.75
 --- !u!1001 &1683230868
 PrefabInstance:
   m_ObjectHideFlags: 0
