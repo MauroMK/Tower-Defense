@@ -12,4 +12,9 @@ public class MenuManager : MonoBehaviour
     {
         currencyUI.text = LevelManager.instance.currency.ToString();
     }
+
+    public void SetSelecter()
+    {
+        
+    }
 }
