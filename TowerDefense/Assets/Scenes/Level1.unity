@@ -9809,8 +9809,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 396dd7c6df00ab04299a34e15aa730c4, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
-  towerPrefabs:
-  - {fileID: 8812198715547013690, guid: a766e06c46351e24cb5f6a11f240a6c2, type: 3}
+  towers:
+  - name: Cannon
+    cost: 100
+    prefab: {fileID: 8812198715547013690, guid: a766e06c46351e24cb5f6a11f240a6c2, type: 3}
+  - name: Sniper
+    cost: 150
+    prefab: {fileID: 8812198715547013690, guid: da51ffc4d4701f44d9f518073302e24a, type: 3}
 --- !u!1001 &1683230868
 PrefabInstance:
   m_ObjectHideFlags: 0

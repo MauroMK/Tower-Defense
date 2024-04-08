@@ -34,7 +34,7 @@ public class Plot : MonoBehaviour
             //TODO make a upgrade menu when clicked in a tower
         }
 
-        GameObject towerToBuild = BuildManager.instance.GetSelectedTower();
-        tower = Instantiate(towerToBuild, transform.position, Quaternion.identity);
+        Tower towerToBuild = BuildManager.instance.GetSelectedTower();
+        tower = Instantiate(towerToBuild.prefab, transform.position, Quaternion.identity);
     }
 }

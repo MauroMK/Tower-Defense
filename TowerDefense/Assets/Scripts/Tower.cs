@@ -1,18 +1,15 @@
-using System.Collections;
-using System.Collections.Generic;
+using System;
 using UnityEngine;
 
-public class Tower : MonoBehaviour
+[Serializable]
+public class Tower
 {
-    // Start is called before the first frame update
-    void Start()
-    {
-        
-    }
+    public string name;
+    public int cost;
+    public GameObject prefab;
 
-    // Update is called once per frame
-    void Update()
+    public Tower (string _name, int _cost, GameObject _prefab)
     {
-        
+
     }
 }
